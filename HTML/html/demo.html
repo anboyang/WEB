@@ -8,8 +8,8 @@
 </head>
 <body>
 	<!-- 悬浮框 -->
-	<div id="_cover">
-	<div class="frame topp" id="cover">
+	<div id="cover">
+	<div class="frame topp">
 		<div id="top" class="clear">
 			<p class="top">帮5买，享帮帮</p>
 			<div class="top img1"><div id="top2"><img src="../images/common_min.png" alt=""></div></div>
@@ -260,11 +260,12 @@
 <script>
 	// 顶部悬浮
 	window.onload=function(){
-		var cover=document.getElementById('_cover');
+		var cover=document.getElementById('cover');
 		window.onscroll=function(){
 			var st=document.documentElement.scrollTop || document.body.scrollTop;
 			if(st>180){
 				cover.style.position='fixed';
+				cover.style.left="170px";
 			}
 			else{
 				cover.style.position='static';

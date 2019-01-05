@@ -2,7 +2,7 @@
 * @Author: dell
 * @Date:   2018-12-22 15:52:39
 * @Last Modified by:   dell
-* @Last Modified time: 2019-01-04 11:54:32
+* @Last Modified time: 2019-01-05 12:48:26
 */
 *{
 	padding: 0;
@@ -21,7 +21,7 @@ body{
 	background-color: #f8f7f6;
 }
 /* 悬浮框 */
-#_cover{background-color:white;}#white{background-color:white;}
+#cover{background-color:white;}#white{background-color:white;}
 .frame{width: 1180px;margin: 0 auto;}
 #top{width: 1180px;}.topp{background-color:#ffffff;}
 .top{float: left;font-size:10px;color:#c8a4ac;height:19px;line-height:19px;}
@@ -88,6 +88,7 @@ body{
 #lower1{width:180px;float:left;}#lower2{width:800px;height:181px;float:left;font-size:12px;}
 #lower3>td{font-weight:bolder;}#lower4{float:left;width:200px;height:181px;text-align:center;padding-top:20px;}
 /* 最下部开始 */
+#bottom{height:150px;}
 #bottom1{width:936.5px;text-align:center;height:12px;padding-left:243.5px;}
 #bottom1>li{float:left;width:77px;height:12px;border-right:1px solid #b4a3ba;text-align:center;line-height:12px;font-size:10px;color:#b4a3ba;}
 #bottom2{font-size:10px;color:#b4a3ba;height:12px;line-height:12px;padding-left:380px;margin-top:10px;}
